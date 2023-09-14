@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pavan singh cv</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins' sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left-side{
+    position: relative;
+    background: #003147;
+    padding: 4px;
+}
+.container .right-side{
+    position: relative;
+    background: #fff;
+    padding: 4px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgbox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactinfo{
+    padding-top: 40px;
+    
+}
+.title{
+ color: #fff;
+ text-transform: uppercase;
+ font-weight: 600;
+ letter-spacing: 1px;
+ text-align: center;
+ margin-bottom: 20px;
+}
+.contactinfo ul{
+    position: relative;
+
+}
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+
+}
+.contactinfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.contactinfo.education li{
+ margin-bottom: 15px;
+
+}
+.contactinfo.education h5{
+    color: #03a9f4;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contactinfo.education h4{
+    color: #fff;
+    font-weight: 500;
+}
+.contactinfo.language .percent{
+ position: absolute;
+ width: 100%;
+ height:6px;
+ background: #081921;
+ display: block;
+ margin-top: 5px;
+}
+.contactinfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    background: #03a9f4;
+}
+.about{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title2{
+    color: #0f5a7c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-shadow:2px 2px #0f5a7c;
+}
+p{
+ color: #003147;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year-company{
+    min-width: 150px;
+}
+.about .box .year-company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .text h4{
+text-transform: uppercase;
+color: #2a7d2a;
+font-size: 16px;
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background:#f0f0f0;
+}
+.skills .box .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+      
+}
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.interest ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.interest ul li .fa{
+    color: #03a9f4;
+    font-size: 20px;
+    width: 20px;
+}
+@media(max-width:100px)
+{
+    .container
+{
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+}
+.interest ul
+{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="profileText">
+                <div class="imgbox">
+                    <img src="pavanpic.jpg">
+                </div>
+                <h2>Pavan Kumar Singh<br><span>Web Development</span></h2>
+            </div>
+            <div class="contactinfo">
+                <h2 class="title">Contact Info</h2>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">+917985759236</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">pavan7985759236@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text">http://pavan7985759236.github.io</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="text">www.linkedin.com/pavan</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-address-card-o" aria-hidden="true"></i></span>
+                        <span class="text">Mau-Uttarpradesh-India</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactinfo education">
+                <h2 class="title">Education</h2>
+                <ul>
+                    <li>
+                       <h5>2015-2019</h5>
+                       <h4>Master Degree in Computer Science</h4>
+                       <h4>University Name</h4>
+                    </li>
+                    <li>
+                        <h5>2013-2015</h5>
+                        <h4>Diploma in Office Management and Bussiness Communication</h4>
+                        <h4>University Name</h4>
+                     </li>
+                     <li>
+                        <h5>2008-2012</h5>
+                        <h4>Bachelor Degree In Computer Science</h4>
+                        <h4>University Name</h4>
+                     </li>
+                     <li>
+                        <h5>2005-2006</h5>
+                        <h4>Intermidiate</h4>
+                        <h4>University Name</h4>
+                     </li>
+                     <li>
+                        <h5>2003-2004</h5>
+                        <h4>Matriculation</h4>
+                        <h4>University Name</h4>
+                     </li>
+                </ul>
+            </div>
+            <div class="contactinfo language">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 80%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Hindi</span>
+                        <span class="percent">
+                            <div style="width: 90%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Bhojpuri</span>
+                        <span class="percent">
+                            <div style="width: 95%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>
+                    
+                    “Pawan has been my colleague at STC, Delhi and remains a friend. He is a man of ideas - 
+                    always brimming with conventional and non-conventional ones! But his enthusiasm to 
+                    do new things is quite infectious! He has delivered consulting projects of varying
+                     complexity for variety of clients to high satisfaction. I wish him best wishes as
+                      he moves ahead in his career.”</p>
+            </div>
+            <div class="about">
+                <h2 class="title3">Experience</h2>
+                <div class="box">
+                    <div class="year-company">
+                        <h5>2020-20121</h5>
+                        <h5>Korawan multiventures pvt.Lmt,patna.Bihar </h5><br>
+                        <h5>2023-present</h5>
+                        <h5>dazzling skill,gorakhpur,u.p</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Full Stack Web Developer</h4>
+                        <p>
+                            Hello myself pavan kumar singh i am post graduate in computer science.passed 
+                            my post graduate degree in 
+                            2019.firstly i am a ux designer but now  i am a full stack developer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about skills">
+                <h2 class="title3">professional skills</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>JAVASCRIPT</h4>
+                    <div class="percent">
+                        <div style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>PYTHON</h4>
+                    <div class="percent">
+                        <div style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about interest">
+                <h2 class="title2">INTEREST</h2>
+                <ul>
+                    <li><i class="fa fa-trophy" aria-hidden="true"></i>OUTDOOR SPORTS</li>
+                    <li><i class="fa fa-microphone" aria-hidden="true"></i> SINGING</li>
+                    <li><i class="fa fa-book" aria-hidden="true"></i>READING</li>
+                    <li><i class="fa fa-cutlery" aria-hidden="true"></i>COOKING</li>
+                    <li><i class="fa fa-film" aria-hidden="true"></i>MOVIES</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
